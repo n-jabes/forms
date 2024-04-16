@@ -14,7 +14,18 @@
   padding: 3rem 7.5rem;
   max-height: 85vh;
   overflow-y: auto;
-  /* border: 2px solid #2fe25c; */
+}
+
+.form-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.form-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.form-container::-webkit-scrollbar-thumb {
+  background: #95bcf5;
 }
 
 .form-container .form {
